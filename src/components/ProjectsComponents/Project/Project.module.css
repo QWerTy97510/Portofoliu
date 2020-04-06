@@ -1,0 +1,25 @@
+.Project {
+  width: 85vw;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.Project img {
+  width: 100%;
+}
+
+.ProjectInfoDiv {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .Project {
+    margin: auto auto 50px auto;
+    padding-top: 80px;
+    grid-template-columns: none;
+    grid-template-rows: 50% 50%;
+  }
+}

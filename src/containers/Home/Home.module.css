@@ -1,0 +1,17 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../../assets/Imagini/HomePage-Background.png');
+  background-size: cover;
+  display: flex;
+  transform: translateX(-1%);
+}
+
+@media (max-width: 500px) {
+  .Home {
+    background-color: #456561;
+    background-image: none;
+    transform: translateX(-4%);
+    height: 100%;
+  }
+}

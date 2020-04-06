@@ -1,0 +1,27 @@
+.RightFrame {
+  width: 60vw;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* background-color: rgba(149, 157, 202, 0.904); */
+  /* background-size: contain; */
+  /* transform: skewX(-20deg) translateX(16%); */
+}
+
+.RightFrameInfo {
+  width: 100%;
+  /* margin: auto auto auto 0; */
+  height: 100vh;
+  /* transform: skewX(20deg); */
+}
+
+.RightFrameInfo img {
+  width: 600px;
+}
+
+@media (max-width: 500px) {
+  .RightFrame {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.Projects {
+  width: 100vw;
+  height: 100%;
+  padding-bottom: 50px;
+  background-color: rgba(149, 157, 202, 0.904);
+  transform: translateX(-1%);
+}
+
+.ButtonsDiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  .Projects {
+    transform: translateX(-4%);
+
+    font-size: 1rem;
+  }
+  .ButtonsDiv {
+    margin-top: 20px;
+  }
+}
